@@ -5,7 +5,7 @@
 [sub_resource type="CircleShape2D" id=1]
 
 [node name="Body" type="RigidBody2D"]
-mass = 0.0306122
+mass = 0.01
 gravity_scale = 0.0
 script = ExtResource( 1 )
 
