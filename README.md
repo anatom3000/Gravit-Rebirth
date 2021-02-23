@@ -1,7 +1,9 @@
 # Gravit Rebirth
 Next version of Gravit made with the Godot Engine !
 
+
 ## TODO List Gravit Project :
+(might translate it if I have time)
 #### Simulateur
 ##### v0.2
 - [ ] Astres Rect() dans Surface
