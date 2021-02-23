@@ -1,5 +1,5 @@
-# Gravit-Rebirth
-Next version of Gravit made with Godot !
+# Gravit Rebirth
+Next version of Gravit made with the Godot Engine !
 
 ## TODO List Gravit Project :
 #### Simulateur
