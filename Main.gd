@@ -2,9 +2,11 @@ extends Node
 
 
 # Called when the node enters the scene tree for the first time.
-func _ready():
-	pass #body1=  
+func _ready():  
+	pass
+
+# 
 
 
-func _on_CheckButton_toggled(button_pressed):
-	$Simulation.change_state(button_pressed)
+func _on_HUD_update_button_update(updating):
+	$Simulation.change_state(updating)

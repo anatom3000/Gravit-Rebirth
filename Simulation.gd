@@ -3,7 +3,6 @@ extends Node
 export (PackedScene) var Body
 
 export var gravity_strenth = 20 # was 6.67408e-2
-var updatin = true
 
 func _ready():
 	add_body(10, Vector2(100, 100))
@@ -28,17 +27,19 @@ func add_body(mass, position, velocity=Vector2(), radius=-1):
 	body.radius = radius
 
 func change_state(updating):
-	updatin = updating
+	for body in get_children():
+		body.sleeping = updating
+	
 	if updating:
 		for body in get_children():
-			body.set_mode(RigidBody2D.MODE_STATIC)
+			body.set_mode(RigidBody2D.MODE_RIGID)
 	else:
 		for body in get_children():
-			body.set_mode(RigidBody2D.MODE_RIGID)
+			body.set_mode(RigidBody2D.MODE_STATIC)
 
-func _process(_delta):
-	if updatin:
-		for body in get_children():
+func _physics_process(delta):
+	for body in get_children():
+		if body.sleeping:
 			for body_i in get_children():
 				if body.position != body_i.position:
 					body.add_force(Vector2(), calculate_forces(
@@ -47,4 +48,3 @@ func _process(_delta):
 						body.mass, 
 						body_i.mass
 					))
-		#print(body.position)

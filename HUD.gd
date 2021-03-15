@@ -1,16 +1,17 @@
 extends CanvasLayer
 
+signal update_button_update(updating)
 
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
 
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	pass
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+
+func _on_UpdateButton_toggled(button_pressed):
+	emit_signal("update_button_update", button_pressed)
+	print("Update:", button_pressed)

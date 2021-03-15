@@ -4,3 +4,12 @@
 
 [node name="HUD" type="CanvasLayer"]
 script = ExtResource( 1 )
+
+[node name="UpdateButton" type="CheckButton" parent="."]
+margin_right = 76.0
+margin_bottom = 40.0
+text = "Updating"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="toggled" from="UpdateButton" to="." method="_on_UpdateButton_toggled"]
