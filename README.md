@@ -4,7 +4,8 @@ Next version of Gravit made with the Godot Engine !
 ## Q&A:
 
 Q: `Any chance for a binary soon ?`
-A: `Can't tell. When the project become`
+
+A: `Can't tell. When the project become mature, sure/`
 
 
 #### Done:
