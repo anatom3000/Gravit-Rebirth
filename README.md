@@ -1,6 +1,12 @@
 # Gravit Rebirth
 Next version of Gravit made with the Godot Engine !
 
+## Q&A:
+
+Q: `Any chance for a binary soon ?`
+A: `Can't tell. When the project become`
+
+
 #### Done:
 - [x] Body Moves by mass/position
 - [x] Zoom
