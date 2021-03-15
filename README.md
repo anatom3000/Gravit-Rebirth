@@ -1,11 +1,12 @@
 # Gravit Rebirth
 Next version of Gravit made with the Godot Engine !
 
+![Build](https://img.shields.io/badge/build-not%20yet-orange)
+![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/anatom3000/Gravit-Rebirth)
+![GitHub](https://img.shields.io/github/license/anatom3000/Gravit-Rebirth)
+![Platform](https://img.shields.io/badge/platform-what%20do%20you%20want%20%3F-blue)
 ## Q&A:
-
-Q: `Any chance for a binary soon ?`
-
-A: `Can't tell. When the project become mature, sure.`
 
 
 #### Done:
