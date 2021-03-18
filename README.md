@@ -6,8 +6,6 @@ Next version of Gravit made with the Godot Engine !
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/anatom3000/Gravit-Rebirth)
 ![GitHub](https://img.shields.io/github/license/anatom3000/Gravit-Rebirth)
 ![Platform](https://img.shields.io/badge/platform-what%20do%20you%20want%20%3F-blue)
-## Q&A:
-
 
 #### Done:
 - [x] Body Moves by mass/position
