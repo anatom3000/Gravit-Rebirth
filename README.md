@@ -7,11 +7,11 @@ Next version of Gravit made with the Godot Engine !
 ![GitHub](https://img.shields.io/github/license/anatom3000/Gravit-Rebirth)
 ![Platform](https://img.shields.io/badge/platform-what%20do%20you%20want%20%3F-blue)
 
-#### Done:
+#### Done
 - [x] Body Moves by mass/position
 - [x] Zoom
 - [x] Camera system
-#### TODO:
+#### TODO
 - [ ] Body color
 - [ ] Button "Add Body"
 - [ ] Body Inspection Panel
